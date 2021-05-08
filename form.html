@@ -6,23 +6,29 @@
 <link rel="stylesheet" href="form.css">
    </head>
 <body>
-  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/kartikparasrampuria@gmail.com" method="post">
-    <fieldset id="fs-frm-inputs">
-      <label for="full-name">Full Name</label>
-      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-        <label for="full-name">Business/Kitchen Name</label>
-      <input type="text" name="name" id="full-name" placeholder="" required="">
-      <label for="email-address">Email Address</label>
-      <input type="email" name="_replyto" id="email-address" placeholder="xyz@gmail.com" required="">
-     <label for="full-name">Mobile No.</label>
-      <input type="text" name="name" id="full-name" placeholder="(Whatsapp)" required="">
-        <label for="full-name">Menu</label>
-      <input type="text" name="name" id="full-name" placeholder="Please include prices / if any" required="">
-         <label for="full-name">Your Terms</label>
-      <input type="text" name="name" id="full-name" placeholder="Order Time  , Delivery Fee..etc" required="">
-      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-    </fieldset>
-    <input type="submit" value="Submit">
+  <!-- modify this form HTML and place wherever you want your form -->
+
+  <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeqvezgv" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+    <label for="full-name">Business/Kitchen Name</label>
+    <input type="text" name="name" id="full-name" placeholder="" required="">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="full-name">Meals</label>
+    <input type="text" name="name" id="full-name" placeholder="Please include the prices" required="">
+    <label for="message">Your Terms</label>
+    <textarea rows="5" name="message" id="message" placeholder="Order Time , Delivery fee.." required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+
+    <!-- your other form fields go here -->
+
+    <button type="submit">Send</button>
   </form><style>/* reset */
   #fs-frm input,
   #fs-frm select,
